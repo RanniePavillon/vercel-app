@@ -2,7 +2,8 @@ import { Helmet } from "react-helmet";
 import './App.css';
 
 function App() {
-    const dynamicImage = "https://example.com/dynamic-image.jpg";
+    const dynamicImage = "https://pofsis-business.s3.amazonaws.com/biz/1675245819673.png";
+    // <meta name="og:image" content="https://pofsis-business.s3.amazonaws.com/biz/1675245819673.png" />
     return (
         <div>
             <Helmet>
