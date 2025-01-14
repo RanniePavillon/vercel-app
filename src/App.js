@@ -10,7 +10,7 @@ function App() {
                 <meta property="og:title" content="Dynamic OG Image Example" />
                 <meta property="og:description" content="This is a dynamically set Open Graph image." />
             </Helmet>
-            <h1>React Open Graph Testing</h1>
+            <h1>Rannie Testing</h1>
             <p>Check the Open Graph meta tags using a debugger tool.</p>
         </div>
     );
