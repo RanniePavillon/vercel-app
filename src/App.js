@@ -1,25 +1,19 @@
-import logo from './logo.svg';
+import { Helmet } from "react-helmet";
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    const dynamicImage = "https://example.com/dynamic-image.jpg";
+    return (
+        <div>
+            <Helmet>
+                <meta property="og:image" content={dynamicImage} />
+                <meta property="og:title" content="Dynamic OG Image Example" />
+                <meta property="og:description" content="This is a dynamically set Open Graph image." />
+            </Helmet>
+            <h1>React Open Graph Testing</h1>
+            <p>Check the Open Graph meta tags using a debugger tool.</p>
+        </div>
+    );
 }
 
 export default App;
