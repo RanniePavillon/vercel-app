@@ -8,11 +8,11 @@ function App() {
     return (
         <HelmetProvider>
             <Helmet>
-                <meta name="og:image" content="https://pofsis-business.s3.amazonaws.com/biz/1675245859953.png" />
-                <meta name="og:title" content="Dynamic Page Title" />
-                <meta name="og:description" content="Dynamic Page Description" />
+                <meta property="og:image" content="https://pofsis-business.s3.amazonaws.com/biz/1675245859953.png" />
+                <meta property="og:title" content="Dynamic Page Title" />
+                <meta property="og:description" content="Dynamic Page Description" />
             </Helmet>
-            <h1>Rannie Testing revised application234567</h1>
+            <h1>Rannie Testing revised application8</h1>
             <p>Check the Open Graph meta tags using a debugger tool.</p>
         </HelmetProvider>
         // <div>
