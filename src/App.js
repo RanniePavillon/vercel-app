@@ -13,7 +13,7 @@ function App() {
                 <meta property="og:description" content="Dynamic Page Description" />
             </Helmet>
             <h1>Rannie Testing revised application8</h1>
-            <p>Check the Open Graph meta tags using a debugger tool.  hey </p>
+            <p>Check the Open Graph meta tags using a debugger tool.  hello worlds </p>
         </HelmetProvider>
         // <div>
         //     <Helmet>
